@@ -125,10 +125,14 @@ function App() {
   return (
     <>
       <header className="site-header">
-        <a className="wordmark" href="#home" onClick={closeMenu} aria-label="Ravenwoods home">
-          <span className="wordmark-symbol">R<span>W</span></span>
-          <span className="wordmark-name">RAVENWOODS<small>INTERIORS · PROJECT COORDINATION</small></span>
-        </a>
+
+<a className="wordmark" href="#home" onClick={closeMenu} aria-label="Ravenwoods home">
+  <img
+    src={`${import.meta.env.BASE_URL}images/stacked lockup_full color_nomargin (2).png`}
+    alt="Ravenwoods"
+    className="brand-logo"
+  />
+</a>
         <button className="mobile-menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close menu" : "Open menu"}>
           {menuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
