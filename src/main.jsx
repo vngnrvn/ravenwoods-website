@@ -128,7 +128,7 @@ function App() {
 
 <a className="wordmark" href="#home" onClick={closeMenu} aria-label="Ravenwoods home">
   <img
-    src={`${import.meta.env.BASE_URL}images/stacked lockup_full color_nomargin (2).png`}
+    src={`${import.meta.env.BASE_URL}stacked lockup_full color_nomargin (2).png`}
     alt="Ravenwoods"
     className="brand-logo"
   />
