@@ -127,11 +127,11 @@ function App() {
       <header className="site-header">
 
 <a className="wordmark" href="#home" onClick={closeMenu} aria-label="Ravenwoods home">
-  <img
-    src={`stacked lockup_full color_nomargin (2).png`}
-    alt="Ravenwoods"
-    className="brand-logo"
-  />
+<img
+  src={`${import.meta.env.BASE_URL}images/ravenwoods-logo.png`}
+  alt="Ravenwoods"
+  className="brand-logo"
+/>
 </a>
         <button className="mobile-menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close menu" : "Open menu"}>
           {menuOpen ? <X size={22} /> : <Menu size={22} />}
